@@ -18,8 +18,8 @@ owner:
   url: "http://oakleydye.xyz" # your URL
 first_published: 2020 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "http://oakleydye.github.io/PersonalSite" # the base hostname & protocol for this site
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://oakleydye.github.io" # the base hostname & protocol for this site
+baseurl: "/oakley" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
             # besides this blog.
