@@ -12,10 +12,10 @@
 
 # Site settings
 title: Oakley Dye
-description: Personal Site
+description: Full Stack Software Engineer
 owner:
   name: Oakley Dye # or company name
-  url: "http://oakleydye.xyz" # your URL
+  url: "http://oakleydye.github.io/oakley" # your URL
 first_published: 2020 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 url: "http://oakleydye.github.io" # the base hostname & protocol for this site
@@ -28,20 +28,38 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: _Your greeting_  
-  text: _Your detailed greeting text_
+  title: Hi there!
+  text: >
+   My name is Oakley and I’m a software developer at 
+   Conservice based in Logan, UT and an entrepreneur, 
+   designer, and developer at Anasi Business Solutions. 
+   By day, you can find me developing enterprise software 
+   in C# and SQL for the Utility Experts. By night, I’m 
+   typically working on client websites, creating an 
+   awesome logo, hanging out with family and friends, 
+   or working on my Jeep. 
+   
+   Thanks for checking out my site, 
+   hope to be in contact with you soon! 
+
+
 # - displayed at the bottom
-closing-head: _Your closing_
-closing-para: _Your detailed closing_
+closing-head: Questions?
+closing-para: >
+  Feel free to reach out to me about anything. I'm down to hear
+  about employment opportunities, to freelance, mentor/tutor,
+  or just chat! The best way to get a hold of me is through Twitter,
+  but I'll respond to emails as well.  
+
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/oakleydye
-  github: https://github.com/oakleydye
   linkedin-square: https://linkedin.com/in/oakley-dye
+  twitter: https://twitter.com/oakleydye
+  email: /contact/ # you can configure and use this contact page or use your email addy
+  github: https://github.com/oakleydye
   facebook-official: https://facebook.com/oakley.dye
   #google-plus-square: https://plus.google.com/u/0/+_username_
-  email: /contact/ # you can configure and use this contact page or use your email addy
   #flickr:
   instagram: https://instagram.com/oakley_dye
   #youtube-square:

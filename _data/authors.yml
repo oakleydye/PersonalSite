@@ -2,10 +2,7 @@
 
 arkadianriver:
   name: Oakley Dye
-  bio: >
-    Opinions expressed are his own and don't necessarily reflect
-    the views of the company he works for or its members.
-    <b>Interests:</b> tech, science, history, PC Gam...SQUIRREL!
-  disqus_shortname: arkadianriver
-  url: http://arkadianriver.com
+  bio: _Bio_
+  disqus_shortname: oakley
+  url: http://oakleydye.github.io/oakley
   avatar: gar.jpg
