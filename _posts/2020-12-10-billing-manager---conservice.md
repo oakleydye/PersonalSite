@@ -4,6 +4,9 @@ excerpt: I billed and maintained a portfolio of properties, serving as the prima
 priority: 0.7
 categories: experiences
 background-image: ConserviceLogo.jpg
+tags:
+    - Excel
+    - VBA/Macros
 #date/lastmod are optional
 #date: 2020-12-10 21:56:50 -0700
 #lastmod: 2020-12-10 21:56:50 -0700
