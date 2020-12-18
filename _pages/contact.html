@@ -5,6 +5,7 @@ permalink: /contact/
 options: nolanding
 excerpt: Get in touch
 background-image: caustic_light.jpg
+spotify: https://music.apple.com/us/playlist/for-the-website/pl.u-AkAmz59uleMAVkB
 script-includes:
   - /js/jquery.validate.min.js
 script: |
@@ -27,16 +28,24 @@ script: |
         <textarea required name="textbody" id="textbody" placeholder="Type your message" rows="6"></textarea>
       </div>
       <div class="12u$">
-        <ul class="actions">{%
-          for my_page in site.pages %}{%
-            if my_page.title contains 'Thanks!' %}
-              <a href="{{ my_page.url | prepend:site.baseurl }}">
-                <li><input type="submit" value="Send Message" class="special" /></li>
-              </a>{%
-            endif %}{%
-          endfor %}
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" class="special" onclick="myFunction()"/></li> 
         </ul>
       </div>
     </div>
   </form>
+
+  <div id="success_section">
+    <p>Thanks for reaching out, I'll be in touch soon! In the meantime, check out some 
+      <a target="_blank" href="{{ page.spotify }}">cool tunes!</a>
+    </p>
+  </div>
+  <script>
+    function myFunction(){
+      var x = document.getElementById("success_section");
+      if (x.style.display === "none"){
+        x.style.display = "block";
+      }
+    }
+  </script>
 </section>
