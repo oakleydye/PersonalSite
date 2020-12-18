@@ -20,7 +20,7 @@ toaddy: <oakley.dye@gmail.com>
 
 # If you want to use the "Cool tunes" link on the /pages/contact-success.html page
 # set this:
-spotifyurl: <some playlist, doesn't have to be spotify>
+spotifyurl: <https://music.apple.com/us/playlist/for-the-website/pl.u-AkAmz59uleMAVkB>
 
 # If you've added more vendor contributions that are only applicable to
 # posts on your specific site, you can add to the "credits" list here,
@@ -46,4 +46,4 @@ other-image-credit: |
   if you want to share the blog photos of my friends and family. 👪
 
 # Any other site-specific things you'd rather have .gitexcluded
-# ...
+# https://getsimpleform.com/messages?api_token=f6b67b18548f265752b61cf928ac0bb0

@@ -65,13 +65,13 @@
                 unless my_page.options contains 'nolanding' %}
             <section class="spotlight">
               <div class="image">
-                <a href="{{ my_page.url | prepend:site.baseurl }}">
+                <a href="{% if my_page.options contains 'customlink' %}{{ my_page.permalink }}{% else %}{{ my_page.url | prepend:site.baseurl }}{% endif %}">
                 <img src="{{ site.baseurl }}/images/{% if my_page.image %}{{ my_page.image }}{% else %}banner.jpg{% endif %}"
                      alt="{% if my_page.image_alt %}{{ my_page.image_alt }}{% else %}Image for {{ my_page.title | escape }}{% endif %}" />
                 </a>
               </div>
               <div class="content-wrap">
-              <a href="{{ my_page.url | prepend:site.baseurl }}">
+              <a href="{% if my_page.options contains 'customlink' %}{{ my_page.permalink }}{% else %}{{ my_page.url | prepend:site.baseurl }}{% endif %}">
               <div class="content">
                 <h2>{{ my_page.title }}</h2>
                 <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
