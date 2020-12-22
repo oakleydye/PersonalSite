@@ -1,0 +1,39 @@
+---
+key: 1
+title: Work Experience
+permalink: https://resume.io/r/vZsJp0fLL
+options: customlink
+excerpt: A list of all my job experience.
+image: pic03.jpg
+background-image: pic03.jpg
+---
+
+{%
+if site.categories.experiences %}
+<div class="table-wrapper">
+  <table>
+    <tbody>{%
+      include fn_groupsort_reverse.html unsorted=site.categories.experiences groupby='priority' sortby='date'
+%}{%  for work in sorted_list %}
+      <tr>
+        <td><b>{{ work.title }}</b></td>
+        <!-- <td>{{ work.date | date: "%b %Y" }}</td> -->
+        <td>{{ work.excerpt }}</td>
+        <td>
+          {% include techlist.html %} 
+        </td>
+      </tr>{%
+      endfor %}
+    </tbody>
+  </table>
+</div>{%
+endif
+%}
+{%
+    if site.social.linkedin-square %}
+    <div class="table-wrapper">
+      <table class="alt"><tbody><tr><td style="text-align: center;">Visit my
+      <a target="_blank" href="{{ site.social.linkedin-square }}">LinkedIn profile</a></td>
+      </tr></tbody></table>
+    </div>{%
+    endif %}

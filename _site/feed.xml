@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oakley Dye</title>
+    <description>Full Stack Software Engineer</description>
+    <link>http://oakleydye.github.io/oakley/</link>
+    <atom:link href="http://oakleydye.github.io/oakley/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Dec 2020 13:32:24 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2020 13:32:24 -0700</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Full Stack Software Engineer - Conservice</title>
+        <description>
+</description>
+        <pubDate>Thu, 10 Dec 2020 00:00:00 -0700</pubDate>
+        <link>http://oakleydye.github.io/oakley/experiences/software-engineer-ii-conservice.html</link>
+        <guid isPermaLink="true">http://oakleydye.github.io/oakley/experiences/software-engineer-ii-conservice.html</guid>
+        
+        <category>C#</category>
+        
+        <category>SQL</category>
+        
+        <category>WPF</category>
+        
+        <category>GIT</category>
+        
+        
+        <category>experiences</category>
+        
+      </item>
+    
+      <item>
+        <title>Corporate Trainer/Quality Control Coach - Conservice</title>
+        <description>
+</description>
+        <pubDate>Thu, 10 Dec 2020 00:00:00 -0700</pubDate>
+        <link>http://oakleydye.github.io/oakley/experiences/corporate-trainer-conservice.html</link>
+        <guid isPermaLink="true">http://oakleydye.github.io/oakley/experiences/corporate-trainer-conservice.html</guid>
+        
+        <category>Google Apps Script/Google Sheets</category>
+        
+        <category>PowerPoint</category>
+        
+        <category>Photoshop</category>
+        
+        
+        <category>experiences</category>
+        
+      </item>
+    
+      <item>
+        <title>Co-Founder, Senior Developer - Anasi Business Solutions</title>
+        <description>
+</description>
+        <pubDate>Thu, 10 Dec 2020 00:00:00 -0700</pubDate>
+        <link>http://oakleydye.github.io/oakley/experiences/co-founder-senior-developer-anasi-business-solutions.html</link>
+        <guid isPermaLink="true">http://oakleydye.github.io/oakley/experiences/co-founder-senior-developer-anasi-business-solutions.html</guid>
+        
+        <category>C#</category>
+        
+        <category>SQL</category>
+        
+        <category>WPF</category>
+        
+        <category>GIT</category>
+        
+        
+        <category>experiences</category>
+        
+      </item>
+    
+      <item>
+        <title>Billing Manager/Quality Control Assistant - Conservice</title>
+        <description>
+</description>
+        <pubDate>Thu, 10 Dec 2020 00:00:00 -0700</pubDate>
+        <link>http://oakleydye.github.io/oakley/experiences/billing-manager-conservice.html</link>
+        <guid isPermaLink="true">http://oakleydye.github.io/oakley/experiences/billing-manager-conservice.html</guid>
+        
+        <category>Excel</category>
+        
+        <category>VBA/Macros</category>
+        
+        
+        <category>experiences</category>
+        
+      </item>
+    
+  </channel>
+</rss>
